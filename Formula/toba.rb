@@ -2,28 +2,28 @@
 class Toba < Formula
   desc "CLI for creating local WordPress environments with Lando"
   homepage "https://github.com/Gotcha190/ToBA"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_darwin_x86_64.tar.gz"
-      sha256 "0f30d6d2e967d340aafef09887ed98fba39f40432cf7b2fe78e7d4daf09dad45"
+      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.1/toba_1.0.1_darwin_x86_64.tar.gz"
+      sha256 "4992991edfd2e7cccd67c1059eb97bb476823395b3759527199754ba70acccf7"
     end
     on_arm do
-      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_darwin_arm64.tar.gz"
-      sha256 "99fdaf8a277b9c47444c2b31a4015b0f21e37b8c21b835e32ccc8d92e8105049"
+      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.1/toba_1.0.1_darwin_arm64.tar.gz"
+      sha256 "c08033cde78e632bac8e561c72f6431c67e8e2003db015d99d545efee2e5662e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_linux_x86_64.tar.gz"
-      sha256 "d02a4b2e10e11316da068b8e0e845e5d515b6336fad5f73bcdab4e7413ef14c8"
+      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.1/toba_1.0.1_linux_x86_64.tar.gz"
+      sha256 "4ef8b94c17df001e09fe280e381d954b1207aef01b4350a2ab499b12b1efb5f2"
     end
     on_arm do
-      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_linux_arm64.tar.gz"
-      sha256 "2799ddd542c7e10cbae1ee18b3814bd84e57e65d9d625f9d9133dee618cd47b4"
+      url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.1/toba_1.0.1_linux_arm64.tar.gz"
+      sha256 "8928c65939d92476bd31c536c75b471f852f2e7014a0c31a2340c38d563de19f"
     end
   end
 
