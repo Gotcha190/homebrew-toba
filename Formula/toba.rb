@@ -8,22 +8,22 @@ class Toba < Formula
   on_macos do
     on_intel do
       url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_darwin_x86_64.tar.gz"
-      sha256 "0f99563e97c8a7e3f64efb34cb2e028b99c94af0de1184f70f284d637b179d7c"
+      sha256 "0f30d6d2e967d340aafef09887ed98fba39f40432cf7b2fe78e7d4daf09dad45"
     end
     on_arm do
       url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_darwin_arm64.tar.gz"
-      sha256 "66d237301dd3fc840c25874f986361c8312674dbbdf6f85fc8f60700cad66daf"
+      sha256 "99fdaf8a277b9c47444c2b31a4015b0f21e37b8c21b835e32ccc8d92e8105049"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_linux_x86_64.tar.gz"
-      sha256 "bad91a6fc43e27ec283b2ac4fedd565279de401064b0844783d8a10adcf0ceb3"
+      sha256 "d02a4b2e10e11316da068b8e0e845e5d515b6336fad5f73bcdab4e7413ef14c8"
     end
     on_arm do
       url "https://github.com/Gotcha190/ToBA/releases/download/v1.0.0/toba_1.0.0_linux_arm64.tar.gz"
-      sha256 "bd43ba116c198b340c35f92c32432e91cee272afe303b8a3cbb3aac7a961ed84"
+      sha256 "2799ddd542c7e10cbae1ee18b3814bd84e57e65d9d625f9d9133dee618cd47b4"
     end
   end
 
