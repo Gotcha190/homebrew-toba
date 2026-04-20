@@ -5,11 +5,11 @@ cask "toba" do
   on_macos do
     on_intel do
       url "https://github.com/Gotcha190/ToBA/releases/download/v#{version}/toba_#{version}_darwin_x86_64.tar.gz"
-      sha256 "1818ed40dadd6f17f1b1aa61d960da82d6dae4710d6cb87c8fb3291d99e3c2d9"
+      sha256 "0f99563e97c8a7e3f64efb34cb2e028b99c94af0de1184f70f284d637b179d7c"
     end
     on_arm do
       url "https://github.com/Gotcha190/ToBA/releases/download/v#{version}/toba_#{version}_darwin_arm64.tar.gz"
-      sha256 "04dcff173ba3bf6a670ff61ed670b776e74c5e98b599098054c40e4b4d6db52c"
+      sha256 "66d237301dd3fc840c25874f986361c8312674dbbdf6f85fc8f60700cad66daf"
     end
   end
 
